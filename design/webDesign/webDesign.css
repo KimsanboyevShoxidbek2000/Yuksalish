@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    background-color: #fafafa;
+  }
+  
+  .webDesign {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 25vh;
+  }
+  
+  .webDesign h1 {
+    color: #000;
+    font-size: 40px;
+    text-transform: initial;
+  }
+  
+.text12{
+  font-size: 24px;
+}
+
+  /* .text.animate {
+    width: 40ch;
+    border-right: 0.1em solid black;
+    font-size: 25px;
+    -webkit-animation: type 2s steps(40), type3 2.5s steps(40, end) 2s;
+            animation: type 2s steps(40), type3 2.5s steps(40, end) 2s;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .text.animate::before {
+    content: "Sizning barcha dizayn orzularingiz amalga oshadi!";
+    -webkit-animation: type3 3s steps(70, end) 2s;
+            animation: type3 3s steps(70, end) 2s;
+  }
+  
+  @-webkit-keyframes type {
+    from {
+      width: 0;
+      content: "Sizning barcha dizayn orzularingiz amalga oshadi!";
+    }
+    to {
+      width: 21ch;
+      content: "Sizning barcha dizayn orzularingiz amalga oshadi!";
+    }
+  }
+  
+  @keyframes type {
+    from {
+      width: 0;
+      content: "Sizning barcha dizayn orzularingiz amalga oshadi!";
+    }
+    to {
+      width: 21ch;
+      content: "Sizning barcha dizayn orzularingiz amalga oshadi!";
+    }
+  }
+  
+  @-webkit-keyframes type3 {
+    from {
+      width: 21ch;
+      content: "Sizning barcha dizayn orzularingiz amalga oshadi!";
+    }
+    to {
+      width: 40ch;
+      content: "Sizning barcha dizayn orzularingiz amalga oshadi!";
+    }
+  }
+  
+  @keyframes type3 {
+    from {
+      width: 21ch;
+      content: "Sizning barcha dizayn orzularingiz amalga oshadi";
+    }
+    to {
+      width: 40ch;
+      content: "Sizning barcha dizayn orzularingiz amalga oshadi";
+    }
+  }
+   */
+  /* _________________________________________________ */
+  .webs {
+    width: 100%;
+    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .inwebs {
+    padding: 0 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* ________________________________________________ */
+  a {
+    text-decoration: none;
+  }
+  
+  /* ________________________________________________ */
+  /* Logotip DESIGN */
+  .webLeft {
+    min-width: 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: left;
+  }
+  
+  .webLeft .logotip h4 {
+    color: #292929;
+    font-size: 30px;
+    text-transform: initial;
+  }
+  
+  .webLeft .leftTags {
+    padding: 15px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .webLeft .leftTags h5 {
+    font-size: 18px;
+    color: #2c2c2c;
+  }
+  
+  .webLeft .leftTags a {
+    width: 80%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111316;
+    padding: 5px 0;
+  }
+  
+  /* ________________________________________________ */
+  /* LEFT INLOGOTIP */
+  /* webLeft */
+  /* ________________________________________________ */
+  /* LEFT INLOGOTIP ALL A TAGS */
+  .leftTags a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ___________________________________________________________ */
+  /* CARDS IMAGES */
+  .imgg {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .imgg::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0px -90px 20px -42px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0px -90px 20px -42px rgba(0, 0, 0, 0.5) inset;
+    overflow: hidden;
+  }
+  
+  .webImgs {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+  
+        grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    overflow: hidden;
+  }
+  
+  .webImgs img {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+  }
+  
+  .webRight .webImgs a {
+    width: 100%;
+    position: relative;
+  }
+  
+  .webRight .webImgs a span {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 10;
+    text-transform: initial;
+  }
+  
+  .webRight .webImgs a:hover:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+  }
+  
+  /* ___________________________________________________________ */
+  /* IN IMG LOGOS */
+  /* ____________________________________________________________ */
+  @media screen and (width: 2400px) {
+    .webImgs {
+  
+          grid-template-columns: repeat(5, 1fr);
+      overflow-y: hidden;
+    }
+    .webRight .webImgs a {
+      width: 100%;
+      height: 100%;
+    }
+    .inwebs {
+      padding: 0 8%;
+    }
+    .webDesign h1 {
+      font-size: 45px;
+    }
+    .webDesign p {
+      font-size: 30px;
+    }
+    .webLeft {
+      min-width: 350px;
+    }
+  }
+  
+  @media screen and (max-width: 2000px) {
+    .webImgs {
+  
+          grid-template-columns: repeat(5, 1fr);
+      overflow-y: hidden;
+    }
+    .webRight .webImgs a {
+      width: 100%;
+      height: 100%;
+    }
+    .inwebs {
+      padding: 0 10%;
+    }
+    .webLeft {
+      min-width: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 1700px) {
+    .webImgs {
+  
+          grid-template-columns: repeat(4, 1fr);
+      overflow-y: hidden;
+    }
+    .webRight .webImgs a {
+      width: 100%;
+      height: 100%;
+    }
+    .inwebs {
+      padding: 0 8%;
+    }
+    .webLeft {
+      min-width: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 1500px) {
+    .webImgs {
+  
+          grid-template-columns: repeat(4, 1fr);
+      overflow-y: hidden;
+    }
+    .webRight .webImgs a {
+      width: 100%;
+      height: 100%;
+    }
+    .inwebs {
+      padding: 0 6%;
+    }
+    .webLeft {
+      min-width: 270px;
+    }
+    .webRight .webImgs a span {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .webImgs {
+  
+          grid-template-columns: repeat(4, 1fr);
+      overflow-y: hidden;
+    }
+    .webRight .webImgs a {
+      width: 100%;
+      height: 100%;
+    }
+    .inwebs {
+      padding: 0 3%;
+    }
+    .webRight .webImgs a span {
+      font-size: 14px;
+    }
+  }
+  
+  /* 1024 px Responsive ____________________________________________________________ */
+  @media screen and (max-width: 1024px) {
+    .webImgs {
+          grid-template-columns: repeat(3, 1fr);
+      overflow-x: hidden;
+    }
+    .webRight .webImgs a {
+      width: 100%;
+      height: 100%;
+    }
+    .inwebs {
+      padding: 0 3%;
+    }
+    .webRight .webImgs a span {
+      font-size: 16px;
+    }
+  }
+  
+  /* 900 px Responsive ____________________________________________________________ */
+  @media screen and (max-width: 912px) {
+    .webImgs {
+          grid-template-columns: repeat(3, 1fr);
+      overflow-x: hidden;
+    }
+    .webRight .webImgs a {
+      width: 100%;
+      height: 100%;
+    }
+    .inwebs {
+      padding: 0 3%;
+    }
+    .text.animate {
+      font-size: 27px;
+    }
+    .webDesign {
+      height: 20vh;
+    }
+    .text12{
+      font-size: 20px;
+    }
+  }
+  
+  /* 870 px Responsive ____________________________________________________________ */
+  @media screen and (max-width: 870px) {
+    .webImgs {
+  
+          grid-template-columns: repeat(3, 1fr);
+      overflow-x: hidden;
+    }
+    .webRight .webImgs a {
+      width: 100%;
+      height: 100%;
+    }
+    .webLeft .leftTags h5 {
+      font-size: 16px;
+    }
+    .webLeft .leftTags a {
+      font-size: 14px;
+    }
+    .inwebs {
+      padding: 0 2%;
+    }
+    .webImgs a span {
+      font-size: 14px;
+    }
+    .text.animate {
+      font-size: 25px;
+    }
+    .webDesign {
+      height: 15vh;
+    }
+  }
+  
+  /* 768 px Responsive ____________________________________________________________ */
+  @media screen and (max-width: 768px) {
+    .webImgs {
+          grid-template-columns: repeat(3, 1fr);
+      overflow: hidden;
+    }
+    .inwebs {
+      padding: 0 1%;
+    }
+    .webRight .webImgs a {
+      width: 100%;
+      height: 100%;
+    }
+    .webLeft {
+      display: none;
+    }
+    .webDesign p {
+      text-align: center;
+    }
+    .webRight .webImgs a span {
+      font-size: 16px;
+    }
+    .text.animate {
+      font-size: 23px;
+    }
+    .webDesign {
+      height: 18vh;
+    }
+    .text12{
+      font-size: 17px;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .webDesign {
+      height: 29vh;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .webDesign {
+      height: 20vh;
+    }
+    .text12{
+      font-size: 15px;
+    }
+  }
+  
+  /* 550 px Responsive ____________________________________________________________ */
+  @media screen and (max-width: 550px) {
+    .webImgs {
+          grid-template-columns: repeat(2, 1fr);
+      overflow: hidden;
+    }
+    .inwebs {
+      padding: 0 0;
+    }
+    .webRight .webImgs a {
+      width: 100%;
+      height: 100%;
+    }
+    .webLeft {
+      display: none;
+    }
+    .webRight .webImgs a span {
+      font-size: 16px;
+    }
+    .text.animate {
+      font-size: 17px;
+      width: 40ch;
+    }
+    .webDesign {
+      height: 18vh;
+    }
+  }
+  
+  /* 400 px Responsive ____________________________________________________________ */
+  @media screen and (max-width: 400px) {
+    .text.animate {
+      font-size: 11px;
+      font-weight: 600;
+      width: 40ch;
+      text-align: center;
+    }
+    .webDesign {
+      height: 16vh;
+    }
+    .inwebs {
+      padding: 0 2%;
+      overflow: hidden;
+    }
+    .webDesign h1 {
+      font-size: 28px;
+    }
+    .text12{
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 240px) {
+    .webDesign {
+      height: 30vh;
+    }
+    .text.animate {
+      font-size: 8px;
+    }
+    .webDesign h1 {
+      font-size: 25px;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */

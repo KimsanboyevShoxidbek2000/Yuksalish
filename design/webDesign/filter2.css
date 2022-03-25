@@ -1,0 +1,364 @@
+/* !---- Global style ----! */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Popins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* !----Head section  ----!*/
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    background-color:#FBFBFB;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    position: relative;
+}
+/* !----- Head btn filter enter ------! */
+.head a > .btn_filter
+{
+    padding: 8px;
+    border: none;
+    background: none;
+}
+/* !---- Head btn exit ----! */
+.head a > .btn_exit
+{
+    padding: 10px;
+    border: none;
+    background: none;
+}
+/* !---- btn exit font size -----! */
+.btn_exit h2
+{
+    color: #388FE8;
+    font-family: sans-serif;
+}
+/* head section */
+
+
+
+
+/* !------ Ul lists-------!*/
+ul li a
+{
+    color:black;
+    padding: 5px;
+}
+/* ul li */
+ul li
+{
+    padding: 12px;
+}
+
+/* ul li hover */
+ul li a:hover 
+{
+    transition: 0.1s ease-in;
+   color: royalblue;
+
+}
+/* ul li checkbox */
+.ul_checkbox a > .check
+{
+ margin: 7px;
+}
+/* !----- First div  -----! */
+.div_1
+{
+    padding: 20px;
+    margin-left: 20px;
+}
+/* !---- Div parargraph-----! */
+.div_1 > .p_1, .p_2
+{
+    margin-left: 40px;
+}
+/* !-----Filter section h3 p -----! */
+.filter_section h3 p
+{
+    padding: 15px;
+    margin: 10px;
+    
+
+}
+
+/* first section */
+
+/* border bottom */
+.bottom_1
+{
+    width: 100%;
+    height: 20px;
+    background-color: #F6F6F6;
+}
+/* second section */
+ h3
+{
+    margin: 25px;
+}
+/* !----Second div ----! */
+.div_2 
+{
+    margin-left: 10px;
+}
+/* !----Check box padding -----! */
+.check
+{
+    margin: 10px;
+}
+
+/* hr section */
+.hr_first
+{
+    width: 100%;
+    margin: 30px 0 30px 0;
+}
+/* hr section */
+
+
+/* third section */
+.div_3  .input_div
+{
+    height: 40px;
+    width: 250px;
+    margin-left: 20px;
+}
+/* !-----button group  section -------! */
+.btn_group
+{
+    display: flex;
+    margin: 10px;
+}
+.btn_group a > .btn_1
+{
+    margin: 3px;
+    padding: 10px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+}
+
+/*!------ double input ------! */
+
+.double_input
+{
+    display: flex;
+    margin: 15px;
+}
+/* !-----First Input -----! */
+.input_1
+{
+    margin: 5px 5px 5px 0;
+    width: 250px;
+    height: 40px;
+}
+/* double input */
+
+
+/*!------- fourth section button ------! */
+
+.div_4
+{
+    margin-left: 11px;
+    font-family: monospace;
+}
+.div_4 a > .btn_1
+{
+    margin: 3px;
+    padding: 10px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+}
+/*!--------- fourth section button -------------!*/
+
+.btn_1
+{
+   padding: 10px; 
+   margin: 10px;
+}
+.ul_list a > li:hover
+{
+    color: royalblue;
+    cursor: pointer;
+}
+/*!--------- fourth section button -------------!*/
+/*!--------  section ul li ------------!*/
+
+
+/* !--------Button last start-----------! */
+
+
+/* !--------Button last start-----------! */
+     .btn-div{
+         height:100px ;
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .btn-div .btn-div-link{
+         padding: 10px 15px;
+         background-color: green;
+         color: white;
+         font-size: 22px;
+         border: none;
+         border-radius: 3px;
+     }
+/* Button last end*/
+/* Button last end*/
+/* !-------------------Media screen max-width-1500px ----------------------! */
+
+@media (max-width:1500px) {
+    .btn-div{
+        text-align: center;      
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}
+/* !-------------------Media screen max-width-1300px ----------------------! */
+
+@media (max-width:1300px) {
+    .btn-div{
+        text-align: center; 
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
+/* !-------------------Media screen max-width-1200px ----------------------! */
+
+@media (max-width:1200px) {
+    .btn_last{
+        text-align: center; 
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}
+
+/* !-------------------Media screen max-width-1024px ----------------------! */
+
+@media (max-width:1024px) {
+    .btn-div{
+        text-align: center;      
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+/* !-------------------Media screen max-width-900px ----------------------! */
+
+@media (max-width:900px) {
+    .btn-div{
+        text-align: center;    
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+/* !-------------------Media screen max-width-568px ----------------------! */
+
+@media (max-width:800px) {
+    .btn-div{
+        text-align: center; 
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+/* !-------------------Media screen max-width-724px ----------------------! */
+
+@media (max-width:722px) {
+    .btn-div{
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}
+/* !-------------------Media screen max-width-724px ----------------------! */
+
+
+@media (max-width:704px) {
+    .btn-div{
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 10px;
+      
+    }
+}
+/* !-------------------Media screen max-width-724px ----------------------! */
+
+@media (max-width:690px) {
+    .btn-div{
+        text-align: center;
+       align-items: center;
+       justify-content: center;
+       margin: auto;
+        margin-bottom: 20px;
+    }
+}
+/* !-------------------Media screen max-width-568px ----------------------! */
+@media (max-width:568px) {
+    .btn-div{
+        text-align: center; 
+       width: 100%;
+        margin-bottom: 20px;
+    }
+}
+/* !-------------------Media screen max-width-393px ----------------------! */
+@media (max-width:468px) {
+    .btn_last{
+        text-align: center; 
+        margin-left: 0;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+}
+/* !-------------------Media screen max-width-393px ----------------------! */
+@media (max-width:412px) {
+    .btn_last{
+        text-align: center; 
+        margin-left: 0;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+}
+/* !-------------------Media screen max-width-393px ----------------------! */
+@media (max-width:400px) {
+    .btn_last{
+        text-align: center; 
+        margin-left: 0;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+}
+/* !-------------------Media screen max-width-368px ----------------------! */
+@media (max-width:360px) {
+    .btn_last{
+        text-align: center; 
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+}
+/* !-------------------Media screen max-width-368px ----------------------! */
+@media (max-width:320px) {
+    .btn_last{
+        text-align: center; 
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+}
